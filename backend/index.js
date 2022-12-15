@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.listen(3001, () => {
 
-    console.log("server runs perfectly"); 
+    console.log("server Runs perfectly"); 
 })
 
 app.post("/AddSeller", async(req, res)=>{
